@@ -82,6 +82,7 @@ export default class Keyboard extends Lightning.Component {
                 let keyType = buttonTypes.default;
                 let action = 'Input';
                 let label = key;
+                console.log('hello')
 
                 if(isEvent.test(key)) {
                     if(hasLabel.test(key)) {
