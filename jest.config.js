@@ -13,4 +13,5 @@ module.exports = {
   setupFiles: ['jest-webgl-canvas-mock'],
   transform: { '^.+\\.[m|t]?js$': 'babel-jest' },
   transformIgnorePatterns: [],
+  collectCoverageFrom: ["src/**/*.{ts,js}"],
 };
